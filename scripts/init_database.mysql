@@ -1,9 +1,9 @@
 /*
 ===============================================================================
-DDL Script: Creating Tables
+DDL Script: Creating Databases and Tables
 ===============================================================================
 Script Purpose:
-    This script creates tables in the  schema, dropping existing tables 
+    This script creates a new databases and tables, dropping existing tables 
     if they already exist.
 	  Run this script to re-define the DDL structure of the Tables
 ===============================================================================
@@ -12,9 +12,9 @@ Script Purpose:
 
 -- we start by first creating a database
 
-CREATE DATABASE data_warehouse;
+CREATE DATABASE data_warehouse2;
 
-USE data_warehouse;
+USE data_warehouse2;
 
 -- we then proceed to create tables
 
